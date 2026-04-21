@@ -5,7 +5,7 @@ from datetime import datetime
 import requests # This library pings the internet
 
 # 1. DATABASE CONNECTION
-raw_password = 'Suku@1997' 
+raw_password = 'YOUR_POSTGRES_PASSWORD_HERE'
 safe_password = urllib.parse.quote_plus(raw_password)
 
 try:
